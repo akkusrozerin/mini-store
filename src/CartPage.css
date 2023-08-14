@@ -1,0 +1,38 @@
+/* CartPage.css */
+
+.cart-page {
+    padding: 20px;
+    color: #333333;
+  }
+  
+  .cart-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cart-items li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .cart-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .cart-buttons button {
+    border: none;
+    background-color: #2196F3;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cart-buttons button:hover {
+    background-color: #1769aa;
+  }
+  
